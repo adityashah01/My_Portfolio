@@ -9,7 +9,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out -b gh-pages",
     "start": "next start"
-
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -41,7 +40,6 @@
     "@radix-ui/react-toggle-group": "1.1.1",
     "@radix-ui/react-tooltip": "1.1.6",
     "@vercel/analytics": "1.3.1",
-    "autoprefixer": "^10.4.20",
     "caniuse-lite": "^1.0.30001751",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -74,10 +72,11 @@
     "@types/pg": "^8.15.6",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.22",
     "cpx": "^1.5.0",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.5",
-    "tailwindcss": "^4.1.9",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
