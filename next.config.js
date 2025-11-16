@@ -1,6 +1,8 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "",       // remove basePath for local dev
-  assetPrefix: "",    // remove prefix
-};
+  output: 'export',
+  basePath: '/My_Portfolio',
+  trailingSlash: true
+}
 
 module.exports = nextConfig;
