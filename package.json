@@ -8,7 +8,8 @@
     "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out -b gh-pages",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
