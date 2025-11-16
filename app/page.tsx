@@ -12,6 +12,7 @@ import {
 } from "lucide-react"
 import { MatrixBackground } from "@/components/matrix-background"
 import Image from "next/image"
+import './globals.css'
 
 export default function Home() {
   return (
