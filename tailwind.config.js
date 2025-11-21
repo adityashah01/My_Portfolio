@@ -24,6 +24,7 @@ module.exports = {
       },
     },
   },
+  
 
   plugins: [
     // Example plugins you might want to add
