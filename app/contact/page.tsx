@@ -22,11 +22,11 @@ export default function ContactPage() {
   const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
 
-  // Using env vars (recommended)
-  const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!
-  const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!
-  const AUTOREPLY_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_AUTOREPLY_TEMPLATE_ID!
-  const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+  // ✅ Your real EmailJS credentials
+  const SERVICE_ID = "service_jq8ywvp"
+  const TEMPLATE_ID = "template_ox9d0t1"
+  const AUTOREPLY_TEMPLATE_ID = "template_z4a6cmm"
+  const PUBLIC_KEY = "vnPr6j_GbuGbA_KCo"
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
