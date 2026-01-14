@@ -48,7 +48,7 @@ export default function ResumePage() {
                   <Button className="gap-2 shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:shadow-primary/30"
   asChild
 >
-  <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+  <a href="/resumme.pdf" target="_blank" rel="noopener noreferrer" download>
     <Download className="h-4 w-4" />
     Download Resume
   </a>
